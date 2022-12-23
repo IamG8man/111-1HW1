@@ -24,7 +24,14 @@
 
 ```csharp
 public void mt_getResult(){
-    ...
+     protected void Page_Load(object sender, EventArgs e)
+        {
+            Response.Write("Hello App");
+        }
+
+        protected System.void btn_show_Click(System.Object sender, System Even)
+        {
+            Response.Write("Hello Button");
 }
 ```
 
